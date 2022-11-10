@@ -1,0 +1,33 @@
+package task1;
+
+//importting Scanner
+import java.util.Scanner;
+
+public class Question_One {
+
+    // Start
+    public static void main(String[] args) {
+
+        Scanner data = new Scanner(System.in); //my Scanner obj
+        
+        String name, evenOdd;
+        int age, lengthName;
+
+        System.out.println("Please enter your sir name :");
+        name = data.nextLine(); //getting sir name
+        System.out.println("Enter your age :");
+        age = data.nextInt(); //getting age
+
+        //Checking if age is even or odd
+        if (age % 2 == 0) {
+            evenOdd = "even";
+        } else {
+            evenOdd = "odd";
+        }
+        //finding number of letters
+        lengthName = name.length(); 
+
+        System.out.println("The number of characters in your sir name is: " + lengthName);
+        System.out.println("Your current age is an " + evenOdd + " number.");
+    }
+}
