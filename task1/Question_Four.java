@@ -21,6 +21,7 @@ public class Question_Four {
                 System.out.println(list71to150.get(i));
             }
             
+            //if i reaches 79, break the loop
             if (i == 79) {
                 break;
             } 
