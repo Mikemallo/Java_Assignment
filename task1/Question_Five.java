@@ -11,7 +11,7 @@ public class Question_Five {
                 result;
         char mathSymbol;
 
-        Scanner data = new Scanner(System.in);
+        Scanner data = new Scanner(System.in); //Scanner object
 
         // request the first number from the user
         System.out.println("Enter the first number");
